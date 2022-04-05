@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/car"
+    >
+
+    <RelativeLayout
+        android:id="@+id/toolBarRl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header"
+        android:background="@drawable/gradient_background">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imgBack"
+            android:visibility="visible"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:layout_gravity="start"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_chevron_left_black_24dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/support"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_centerInParent="true"
+            android:textSize="16dp"
+            android:id="@+id/txtOrder"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolBarRl"
+        android:background="@color/background"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/Subject"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size_15"
+            android:textStyle="bold" />
+
+
+
+        <EditText
+            android:id="@+id/edtsubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="@dimen/size_5dp"
+            android:backgroundTint="@color/white"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:hint="Enter Subject"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/title_size_15" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginEnd="@dimen/extra_small_icon_size_20"
+
+            android:layout_marginTop="@dimen/size_10dp"
+            android:background="@drawable/background_shopper">
+
+            <com.skydoves.powerspinner.PowerSpinnerView
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:hint="@string/SelectYourReason"
+                android:padding="7dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/white"
+                android:textSize="14sp"
+                app:spinner_arrow_gravity="end"
+                app:spinner_arrow_padding="8dp"
+                app:spinner_divider_color="@color/lightGrey"
+                app:spinner_divider_show="true"
+                app:spinner_divider_size="0.4dp"
+                app:spinner_popup_animation="dropdown"
+                app:spinner_popup_background="@color/white"
+                app:spinner_popup_elevation="14dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/Description"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size_15"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/medium_banner_size_200"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginEnd="@dimen/extra_small_icon_size_20"
+            android:padding="@dimen/size_5dp"
+            android:layout_marginTop="@dimen/size_10dp"
+            android:background="@drawable/background_shopper">
+
+            <EditText
+                android:id="@+id/descEdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:background="@null"
+                android:padding="@dimen/size_5dp"
+                android:inputType="textMultiLine"
+                 android:imeOptions="actionDone"
+                android:hint="@string/EnterDescription"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/title_size_15" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/button"
+            android:layout_marginTop="@dimen/extra_small_icon_size_20"
+            android:layout_gravity="center"
+            android:id="@+id/btnSend"
+            android:visibility="visible"
+            android:text="@string/Send"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+</layout>

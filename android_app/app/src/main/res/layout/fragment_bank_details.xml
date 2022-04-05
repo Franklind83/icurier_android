@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/car"
+    tools:context=".Fragment.More.BankDetailsFragment">
+
+    <RelativeLayout
+        android:id="@+id/toolBarRl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header"
+        android:background="@drawable/gradient_background">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imgBack"
+            android:visibility="visible"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:layout_gravity="start"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_chevron_left_black_24dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/pi"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_centerInParent="true"
+            android:textSize="16dp"
+            android:id="@+id/txtOrder"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolBarRl"
+        android:background="@color/background">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:id="@+id/countryNameRl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginEnd="@dimen/extra_small_icon_size_20"
+            android:layout_marginTop="@dimen/extra_small_icon_size_30"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/background_shopper">
+
+
+            <TextView
+                android:id="@+id/countryNameTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hi"
+                android:textSize="16sp"
+                android:padding="5dp"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_down"
+                android:layout_centerVertical="true"
+                app:tint="@color/black" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/ibanTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IBAN"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginRight="@dimen/extra_small_icon_size_20"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/extra_small_icon_size_20"/>
+
+        <EditText
+            android:id="@+id/ibanExt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ibannumber"
+            android:backgroundTint="@color/white"
+            android:padding="7dp"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:layout_marginTop="@dimen/size_10dp"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginEnd="@dimen/extra_small_icon_size_20"
+            android:background="@drawable/background_shopper"
+            />
+
+        <TextView
+            android:id="@+id/routingNoTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rn"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginRight="@dimen/extra_small_icon_size_20"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/extra_small_icon_size_20"/>
+
+        <EditText
+            android:id="@+id/routingNoExt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/routinnumber"
+            android:backgroundTint="@color/white"
+            android:padding="7dp"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:layout_marginTop="@dimen/size_10dp"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginEnd="@dimen/extra_small_icon_size_20"
+            android:background="@drawable/background_shopper"
+            />
+
+        <TextView
+            android:id="@+id/accountOwnerTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aon"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginRight="@dimen/extra_small_icon_size_20"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/extra_small_icon_size_20"/>
+
+        <EditText
+            android:id="@+id/accountOwnerExt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enteraon"
+            android:backgroundTint="@color/white"
+            android:padding="7dp"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:layout_marginTop="@dimen/size_10dp"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginEnd="@dimen/extra_small_icon_size_20"
+            android:background="@drawable/background_shopper"
+            />
+
+        <TextView
+            android:id="@+id/pasportTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/idpass"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginRight="@dimen/extra_small_icon_size_20"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/extra_small_icon_size_20"/>
+
+        <EditText
+            android:id="@+id/pasportExt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enterid"
+            android:backgroundTint="@color/white"
+            android:padding="7dp"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:layout_marginTop="@dimen/size_10dp"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginEnd="@dimen/extra_small_icon_size_20"
+            android:background="@drawable/background_shopper"
+            />
+
+        <TextView
+            android:id="@+id/bankTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bname"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginRight="@dimen/extra_small_icon_size_20"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/extra_small_icon_size_20"/>
+
+        <EditText
+            android:id="@+id/bankExt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enterbname"
+            android:backgroundTint="@color/white"
+            android:padding="7dp"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:layout_marginTop="@dimen/size_10dp"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginEnd="@dimen/extra_small_icon_size_20"
+            android:background="@drawable/background_shopper"
+            />
+
+        <TextView
+            android:id="@+id/branchTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/branchname"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginRight="@dimen/extra_small_icon_size_20"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/extra_small_icon_size_20"/>
+
+        <EditText
+            android:id="@+id/branchExt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enterbranch"
+            android:backgroundTint="@color/white"
+            android:padding="7dp"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:layout_marginTop="@dimen/size_10dp"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginEnd="@dimen/extra_small_icon_size_20"
+            android:background="@drawable/background_shopper"
+            />
+
+
+        <TextView
+            android:id="@+id/bankCodeTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/BankCode"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginRight="@dimen/extra_small_icon_size_20"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/extra_small_icon_size_20"/>
+
+        <EditText
+            android:id="@+id/bankCodeExt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/EnterBankCode"
+            android:backgroundTint="@color/white"
+            android:padding="7dp"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:layout_marginTop="@dimen/size_10dp"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginEnd="@dimen/extra_small_icon_size_20"
+            android:background="@drawable/background_shopper"
+            />
+
+
+        <TextView
+            android:id="@+id/clearingCodeTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ClearingCode"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginRight="@dimen/extra_small_icon_size_20"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/extra_small_icon_size_20"/>
+
+        <EditText
+            android:id="@+id/clearingCodeExt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ecc"
+            android:backgroundTint="@color/white"
+            android:padding="7dp"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:layout_marginTop="@dimen/size_10dp"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginEnd="@dimen/extra_small_icon_size_20"
+            android:background="@drawable/background_shopper"
+            />
+
+        <TextView
+            android:id="@+id/branchCodeTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/BranchCode"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginRight="@dimen/extra_small_icon_size_20"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/extra_small_icon_size_20"/>
+
+        <EditText
+            android:id="@+id/branchCodeExt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/EnterBranchCode"
+            android:backgroundTint="@color/white"
+            android:padding="7dp"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:layout_marginTop="@dimen/size_10dp"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginEnd="@dimen/extra_small_icon_size_20"
+            android:background="@drawable/background_shopper"
+            />
+
+        <TextView
+            android:id="@+id/ifscTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/IFSCCode"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginRight="@dimen/extra_small_icon_size_20"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/extra_small_icon_size_20"/>
+
+        <EditText
+            android:id="@+id/ifscExt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/EnterIFSCCode"
+            android:backgroundTint="@color/white"
+            android:padding="7dp"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:layout_marginTop="@dimen/size_10dp"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginEnd="@dimen/extra_small_icon_size_20"
+            android:background="@drawable/background_shopper"
+            />
+
+        <TextView
+            android:id="@+id/transitTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/TransitNumber"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginRight="@dimen/extra_small_icon_size_20"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/extra_small_icon_size_20"/>
+
+        <EditText
+            android:id="@+id/transitExt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/EnterTransitNumber"
+            android:backgroundTint="@color/white"
+            android:padding="7dp"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:layout_marginTop="@dimen/size_10dp"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginEnd="@dimen/extra_small_icon_size_20"
+            android:background="@drawable/background_shopper"
+            />
+
+
+        <TextView
+            android:id="@+id/instituteTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/InstitutionNumber"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginRight="@dimen/extra_small_icon_size_20"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/extra_small_icon_size_20"/>
+
+        <EditText
+            android:id="@+id/instituteExt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/EnterInstitutionNumber"
+            android:backgroundTint="@color/white"
+            android:padding="7dp"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:layout_marginTop="@dimen/size_10dp"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginEnd="@dimen/extra_small_icon_size_20"
+            android:background="@drawable/background_shopper"
+            />
+
+
+        <TextView
+            android:id="@+id/accountnoTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/AccountNumber"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginRight="@dimen/extra_small_icon_size_20"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/extra_small_icon_size_20"/>
+
+        <EditText
+            android:id="@+id/accountnoExt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/EnterAccountNumber"
+            android:backgroundTint="@color/white"
+            android:padding="7dp"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:layout_marginTop="@dimen/size_10dp"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginEnd="@dimen/extra_small_icon_size_20"
+            android:background="@drawable/background_shopper"
+            />
+
+
+        <TextView
+            android:id="@+id/bsbTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BSB"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginRight="@dimen/extra_small_icon_size_20"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/extra_small_icon_size_20"/>
+
+        <EditText
+            android:id="@+id/bsbExt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/EnterBSB"
+            android:backgroundTint="@color/white"
+            android:padding="7dp"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:layout_marginTop="@dimen/size_10dp"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginEnd="@dimen/extra_small_icon_size_20"
+            android:background="@drawable/background_shopper"
+            />
+
+
+
+        <TextView
+            android:id="@+id/sortTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/SortCode"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginRight="@dimen/extra_small_icon_size_20"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/extra_small_icon_size_20"/>
+
+        <EditText
+            android:id="@+id/sortExt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/EnterSortCode"
+            android:backgroundTint="@color/white"
+            android:padding="7dp"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:layout_marginTop="@dimen/size_10dp"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginEnd="@dimen/extra_small_icon_size_20"
+            android:background="@drawable/background_shopper"
+            />
+
+        <TextView
+            android:id="@+id/clabeTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLABE"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginRight="@dimen/extra_small_icon_size_20"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/extra_small_icon_size_20"/>
+
+        <EditText
+            android:id="@+id/clabeExt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/EnterCLABE"
+            android:backgroundTint="@color/white"
+            android:padding="7dp"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:layout_marginTop="@dimen/size_10dp"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginEnd="@dimen/extra_small_icon_size_20"
+            android:background="@drawable/background_shopper"
+            />
+
+        <RelativeLayout
+            android:id="@+id/accountTypeLL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_marginEnd="@dimen/extra_small_icon_size_20"
+            android:backgroundTint="@color/white"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/extra_small_icon_size_20"
+            android:background="@drawable/background_shopper">
+
+            <com.skydoves.powerspinner.PowerSpinnerView
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:hint="@string/sat"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="14sp"
+                app:spinner_arrow_gravity="end"
+                app:spinner_arrow_padding="8dp"
+                app:spinner_divider_color="@color/lightGrey"
+                app:spinner_divider_show="true"
+                app:spinner_divider_size="0.4dp"
+                app:spinner_popup_animation="dropdown"
+                app:spinner_popup_background="@color/white"
+                app:spinner_popup_elevation="14dp" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_down"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                app:tint="@color/black" />
+
+        </RelativeLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/button3"
+            android:layout_marginTop="@dimen/extra_small_icon_size_20"
+            android:layout_gravity="center"
+            android:id="@+id/btnSend"
+            android:layout_marginBottom="@dimen/size_10dp"
+            android:visibility="visible"
+            android:text="@string/submit"/>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
+</layout>

@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="toshopper">COMPRADOR</string>
+    <string name="totraveller">VIAJERO</string>
+
+    <string name="Home">Inicio</string>
+    <string name="MyOrders">Pedidos</string>
+    <string name="MyOffers">Ofertas</string>
+    <string name="Messages">Mensaje</string>
+    <string name="More">Más</string>
+
+    <string name="changepwd">Cambiar Contraseña</string>
+    <string name="change_password"><u>Cambiar Contraseña</u></string>
+    <string name="edit_pprofile">Actualizar Perfil</string>
+
+    <string name="enter_old_passowrd">Ingrese su anterior contraseña*</string>
+    <string name="enter_new_password">Ingrese nueva contraseña*</string>
+    <string name="confirm_pass" >Confirme nueva contraseña*</string>
+    <string name="submit">Enviar</string>
+
+    <string name="conf" >Idioma</string>
+    <string name="support">Apoyo</string>
+    <string name="blog" >Blog</string>
+    <string name="faq" >FAQs</string>
+    <string name="contact">Contacto</string>
+    <string name="privacy" >Política de Privacidad</string>
+    <string name="terms_condition">Términos &amp; Condiciones</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="telephoned">Teléfono:</string>
+
+    <string name="tagline">Disfruta comprando, gana viajando</string>
+    <string name="forgotpwd">Olvidó su contraseña</string>
+
+    <string name="forgotp">Olvidó su contraseña?</string>
+    <string name="email_address" >Correo Electrónico*</string>
+    <string name="password">Contraseña*</string>
+    <string name="sing_in" >Iniciar sesión</string>
+    <string name="sing_up">No tiene cuenta? Registrarse</string>
+
+    <string name="origin" >Origen :</string>
+    <string name="destination">Destino :</string>
+
+    <string name="Offers">OFERTAS</string>
+
+    <string name="username">Usuario*</string>
+    <string name="countary">Country*</string>
+    <string name="telephone">País de residencia*</string>
+    <string name="sign_up__">Registrarse</string>
+    <string name="email">Email*</string>
+    <string name="have_ac">Tiene una cuenta? Inicie sesión</string>
+    <string name="confirm_password">Confirmar contraseña*</string>
+
+    <string name="activeorder">PEDIDOS EN TRANSITO</string>
+    <string name="txt_travel_from">País Origen</string>
+    <string name="txt_travel_to">País Destino</string>
+
+    <string name="order_to_manage">Pedido en gestión</string>
+    <string name="purchase_made">Compra realizada</string>
+    <string name="order_deliverd" >Pedido entregado</string>
+    <string name="statisfied_buyer">Comprador satisfecho</string>
+    <string name="Configuration">CONFIGURACION</string>
+
+    <string name="Subject">Asunto</string>
+    <string name="SelectYourReason">Escoja un motivo</string>
+    <string name="Description">Descripción</string>
+    <string name="EnterDescription">Ingrese la descripción</string>
+    <string name="Send">Enviar</string>
+
+    <string name="Aboutbuyertraveller">Sobre comprador / viajero</string>
+    <string name="Aboutpayment">Sobre el pago</string>
+    <string name="Regarding">Sobre la web o la aplicación</string>
+    <string name="Comments">Comentarios y sugerencias</string>
+    <string name="functionality">Sobre funcionalidad</string>
+    <string name="Others">Otras</string>
+
+
+    <string name="Entersubject">Por favor, introduzca el asunto</string>
+    <string name="Enterdescription">Por favor, introduzca la descripción</string>
+    <string name="Enterreason">Por favor seleccione la razón</string>
+
+    <string name="txt_travel_from_city">País origen del viaje:</string>
+    <string name="txt_trip_to_city">País destino del viaje (donde entregaré los pedidos):</string>
+    <string name="hint_city">Ecuador</string>
+    <string name="travel_day">Fecha de viaje:</string>
+    <string name="add_trip">NUEVO VIAJE</string>
+    <string name="des_city">Inglaterra</string>
+    <string name="plan_new_trip">Ingresa la planificación de tus viajes y encuentra todos los pedidos!</string>
+
+    <string name="slelect_travel_from_city">Select Travel From City</string>
+    <string name="select_travel_to_city">Select Trip To City</string>
+    <string name="select_date">Select Date</string>
+
+    <string name="traveller_data">Datos del Viajero</string>
+    <string name="EditOffer">Editar Oferta</string>
+
+    <string name="no_product">No de productos en esta orden: </string>
+    <string name="top">Precio total: $</string>
+    <string name="order_on">Solicitado</string>
+    <string name="order_on_new">Solicitado: </string>
+    <string name="offer"><u>OFERTAS</u></string>
+
+    <string name="from">DESDE</string>
+    <string name="to">HACIA</string>
+    <string name="hire">Solicitar oferta</string>
+    <string name="traveller">El viajero todavía no responde su solicitud</string>
+
+    <string name="product_price">Precio del producto :</string>
+    <string name="intended_reward">Recompensa Solicitada :</string>
+    <string name="accept_offer">Aceptar Oferta</string>
+    <string name="send_message">Enviar Mensaje</string>
+    <string name="type_message">Escribir Mensaje..</string>
+    <string name="product_detail1"><u>Detalles del Producto</u></string>
+    <string name="ordersummary">RESUMEN DEL PEDIDO</string>
+    <string name="total">TOTAL</string>
+    <string name="ordercontain">Pedido Tiene </string>
+    <string name="product"> producto</string>
+
+    <string name="cancelorder">Está seguro que quiere cancelar este pedido?</string>
+    <string name="ok">Aceptar</string>
+    <string name="yes">si</string>
+    <string name="no">No</string>
+    <string name="Cancel">Cancelar</string>
+    <string name="are_you_want_to_remove_this_order">Está seguro de que desea eliminar este pedido?</string>
+
+    <string name="this_figure_help_us_to_cover_our_administrative_expenses_maintain_our_platform_and_provide_better_support_to_our_users">
+        Esta cifra nos ayuda a cubrir nuestros gastos administrativos, mantener nuestra plataforma y brindar un mejor soporte a nuestros usuarios.
+    </string>
+
+    <string name="ordervalue">Valor de la orden :</string>
+    <string name="tr">Recompensa del viajero :</string>
+    <string name="sc">Costo de envío:</string>
+    <string name="tando">Impuestos y otras:</string>
+    <string name="ioe">Gastos operativos Icurier</string>
+    <string name="pm">Métodos de pago</string>
+    <string name="pay">Pagar</string>
+    <string name="payment">pago</string>
+    <string name="taxes">Impuestos, tarjeta de crédito y Otros :</string>
+    <string name="offeraccepted">"Oferta aceptada con éxito</string>
+
+    <string name="pd">Ingrese los datos de su tarjeta</string>
+    <string name="cardholdername">NOMBRE DEL TARJETAHABIENTE*</string>
+    <string name="cardholder">Nombre del tarjetahabiente</string>
+    <string name="cardno">NUMERO DE TARJETA*</string>
+    <string name="em">MES DE VENCIMIENTO*</string>
+    <string name="ey">AÑO DE VENCIMIENTO*</string>
+    <string name="card">Tarjeta</string>
+    <string name="totalmain">TOTAL:</string>
+    <string name="pi">Información del pago</string>
+
+    <string name="bank">Banco:</string>
+    <string name="owner">Dueña:</string>
+    <string name="an">Número de cuenta:</string>
+    <string name="at">Tipo de cuenta:</string>
+    <string name="id">ID:</string>
+    <string name="emailno">Email:</string>
+    <string name="please">Por favor complete los detalles a continuación para completar el pedido</string>
+    <string name="originbank">Banco de origen:</string>
+    <string name="tno">Número de transacción:</string>
+    <string name="uploadimage">Cargar imagen:</string>
+    <string name="pc">Confirmación de pago</string>
+    <string name="Chats">MENSAJES</string>
+    <string name="nochat">Usted no tiene mensajes</string>
+    <string name="ps">RESUMEN DEL PRODUCTO</string>
+
+    <string name="bd">Detalles del comprador :</string>
+    <string name="pds">Detalles del producto :</string>
+    <string name="condition" >*El valor se cancela al aceptar la oferta de un viajero.</string>
+    <string name="terms_con" >Aceptar los términos y condiciones de uso</string>
+    <string name="terms_cond" ><u>Aceptar los términos y condiciones</u> de uso</string>
+    <string name="description" >Descripción del producto :</string>
+    <string name="product_link" >Link del producto :</string>
+    <string name="quetity" >Cantidad :</string>
+    <string name="reward_" >Recompensa :</string>
+    <string name="travel_date" >Fecha de Viaje</string>
+    <string name="dd">Detalles de la entrega :</string>
+    <string name="mywallet">Mi billetera</string>
+    <string name="ce">Comisión ganada</string>
+    <string name="traveramount">Cantidad de viajero de toda la oferta aceptada</string>
+    <string name="seerating">Ver calificaciones</string>
+    <string name="noticket">No hay entradas disponibles</string>
+
+    <string name="norating">Todavía no tiene calificaciones</string>
+    <string name="everyone">Todos</string>
+    <string name="buyer">Comprador</string>
+    <string name="travellerdata">Viajero</string>
+    <string name="profileupdate">Perfil actualizado exitosamente</string>
+
+    <string name="pimain">Información Personal</string>
+    <string name="paymentinfo">Información Del pago</string>
+    <string name="personalranking">Ranking Personal</string>
+
+    <string name="subject">Sujeta:</string>
+    <string name="reason">Razón:</string>
+    <string name="date">Fecha:</string>
+    <string name="time">Hora:</string>
+    <string name="desc">Descripción: </string>
+    <string name="seedetails">Ver detalle</string>
+    <string name="order_no">El pedido No: </string>
+
+    <string name="ibannumber">Ingrese el número IBAN</string>
+    <string name="rn">Número de ruta</string>
+    <string name="routinnumber">Ingrese el número de ruta</string>
+    <string name="aon">Nombre del propietario de la cuenta</string>
+    <string name="enteraon">Ingrese el nombre del propietario de la cuenta</string>
+
+    <string name="idpass">DNI / Pasaporte</string>
+    <string name="enterid">Ingrese Id</string>
+    <string name="bname">Nombre del banco</string>
+    <string name="enterbname">Ingrese el nombre del banco</string>
+    <string name="branchname">Nombre de la sucursal</string>
+    <string name="enterbranch">Ingrese el nombre de la sucursal</string>
+
+
+    <string name="BankCode">Codigo bancario</string>
+    <string name="EnterBankCode">Ingrese el código del banco</string>
+    <string name="ClearingCode">Código de compensación</string>
+    <string name="ecc">Ingrese el código de compensación</string>
+    <string name="BranchCode">Código de sucursal</string>
+    <string name="EnterBranchCode">Ingrese el código de sucursal</string>
+    <string name="IFSCCode">Código IFSC</string>
+    <string name="EnterIFSCCode">Ingrese el código IFSC</string>
+    <string name="TransitNumber">Número de Tránsito</string>
+    <string name="EnterTransitNumber">Ingrese el número de tránsito</string>
+    <string name="InstitutionNumber">Número de institución</string>
+    <string name="EnterInstitutionNumber">Ingrese el número de institución</string>
+    <string name="AccountNumber">Número de cuenta</string>
+    <string name="EnterAccountNumber">Ingrese el número de cuenta</string>
+    <string name="EnterBSB">Ingrese el número BSB</string>
+    <string name="SortCode">Código de clasificacion</string>
+    <string name="EnterSortCode">Ingrese el código de clasificación</string>
+    <string name="EnterCLABE">Ingrese CLABE</string>
+    <string name="sat">Tipo de cuenta</string>
+    <string name="Saving">Cuenta de ahorro</string>
+    <string name="Checking">Cuenta de cheques</string>
+    <string name="delivery_date">Fecha de entrega :</string>
+
+    <string name="trips_and_offers">OFERTAS Y VIAJES</string>
+    <string name="next_trip">Viajes Programados</string>
+    <string name="past_trip">Viajes Anteriores</string>
+    <string name="notrip">Usted no tiene viajes agregados</string>
+
+    <string name="earnings">Ganancias:</string>
+    <string name="orders">Pedidos:</string>
+    <string name="orders_to_delivery">Pedidos para entregar:</string>
+    <string name="canceltrip">Está seguro que quiere cancelar este viaje?</string>
+
+    <string name="tripedited">Su viaje se editó exitosamente</string>
+    <string name="tripcancel">Viaje cancelado con éxito</string>
+
+    <string name="EditTravel">EDITAR VIAJE</string>
+    <string name="Update">Actualizar</string>
+
+    <string name="noorders">Usted no tiene pedidos</string>
+    <string name="ordersnew">Pedidos</string>
+    <string name="Pending">Pendiente</string>
+    <string name="Delivered">Entregado</string>
+    <string name="Accepted">Aceptado</string>
+    <string name="ordersid">Id del pedido: </string>
+    <string name="nooffers">No hay ofertas disponibles</string>
+    <string name="AssociateTrips">Asociar Viaje</string>
+
+    <string name="makeoffer">REALIZAR OFERTA</string>
+    <string name="Edit">Editar</string>
+    <string name="arenot">No es usted?</string>
+
+    <string name="pleasecompleted">Por favor complete los detalles de su viaje</string>
+    <string name="LoadNewTrip">Cargar nuevo viaje</string>
+    <string name="paymentbilling">Detalles de oferta y gastos</string>
+    <string name="shippingcost">Costo de envío $</string>
+    <string name="yourreward">Recompensa $</string>
+    <string name="taxesfee">Impuestos, tasas, otros $</string>
+    <string name="Agree">De acuerdo</string>
+
+    <string name="logouttxt">Usted quiere cerrar la sesión?</string>
+    <string name="messagetobuyer">Mensaje al comprador</string>
+    <string name="hello">Hola </string>
+    <string name="planatrip"> tengo planificado viajar de </string>
+    <string name="totxt"> a </string>
+    <string name="fortxt"> el </string>
+    <string name="acceptmyyoffer"> acepte mi oferta y gestiono su compra.</string>
+    <string name="offersent">Oferta enviada al comprador</string>
+
+    <string name="updateoffer">Actualizar Oferta</string>
+    <string name="offerupdate">Actualización de oferta exitosa</string>
+
+    <string name="active" > Activos</string>
+    <string name="cancelled" > Cancelados</string>
+    <string name="intransit" > En tránsito</string>
+    <string name="received" > Recibidos</string>
+    <string name="nooder">Usted no tiene pedidos</string>
+    <string name="sameorder">Ya ha contratado a este viajero para el mismo pedido.</string>
+    <string name="noofproduct">No. de productos disponibles: </string>
+    <string name="photoofarticle">Fotos del artículo </string>
+
+    <string name="travellerpuschase">El viajero ha realizado su compra el </string>
+    <string name="updated"> y ha subido una foto</string>
+
+    <string name="hasbeen"> ha sido entregado a </string>
+    <string name="docnumber"> con número de identificación </string>
+    <string name="on"> el </string>
+    <string name="confirmreciept">Confirmar Recepción</string>
+
+    <string name="helptraveller">Califica al viajero y ayuda a otras personas a verificar su puntuación.</string>
+    <string name="helpbuyer">Califica al comprador y ayuda a otras personas a verificar su puntuación.</string>
+    <string name="thnakyou">Gracias por confirmar la recepción de su pedido</string>
+    <string name="Feedback">Feedback</string>
+    <string name="Enterfeedback">Enter feedback</string>
+    <string name="nextTrip">Viajes Posteriores</string>
+    <string name="following">Siguiente</string>
+    <string name="nooforder">No. of order available in order: </string>
+    <string name="photo">Fotos del artículo (mínimo 1):</string>
+
+    <string name="product_receive">Nombre de la persona que recibe:</string>
+    <string name="document_number">Número de identificación:</string>
+    <string name="photoor">Foto (opcional)</string>
+    <string name="eg">Ej. Juan Lovato</string>
+    <string name="egmain">Ej. 1717658299</string>
+    <string name="giverating">Calificar al comprador</string>
+
+    <string name="buyersatis">El comprador está satisfecho con la entrega del pedido.</string>
+    <string name="buyerdoesnot">El comprador no confirma la entrega de su pedido. Por favor espere la confirmación del comprador.</string>
+
+    <string name="notifications">NOTIFICACIONES</string>
+    <string name="nonotificatin">Usted no tiene notificaciones</string>
+
+    <string name="forwhichorder">Por favor seleccionar el tipo de orden?</string>
+    <string name="NewOrder">Orden Nueva</string>
+    <string name="ExistingOrder">Orden Existente</string>
+
+    <string name="yourtravel"> , su itinerario de viaje coincide con una compra que necesito en </string>
+    <string name="wouldlike">, me gustaría que revise el pedido y me haga una oferta, Saludos</string>
+
+    <string name="buying">DETALLES DE LA COMPRA</string>
+    <string name="product_detail">Detalles del producto</string>
+    <string name="delivery_detail">Detalles de la entrega</string>
+    <string name="product_overview">Descripción del producto</string>
+    <string name="summery">Resumen del pedido</string>
+    <string name="article_name">Nombre del artículo*</string>
+    <string name="cooments_on_article">Comentarios del artículo*</string>
+    <string name="where_to_buy">Ingrese la página web de la compra del artículo*</string>
+    <string name="price_of_item">Precio del artículo*:</string>
+    <string name="quentity">Cantidad*:</string>
+
+    <string name="eg_name">Ej: i phone 7 64 GB</string>
+    <string name="eg_comment">Ej: Original</string>
+    <string name="eg_buy">Ej: https://www.amazon.com/iphone 11</string>
+
+    <string name="discard">Descartar</string>
+    <string name="article_came_from">Ingrese  el país donde quiere comprar el artículo?</string>
+    <string name="location">Ingrese el país de entrega del artículo</string>
+    <string name="dead_line">Fecha límite de entrega del artículo</string>
+    <string name="reward">Ingrese la recompensa que ofrece al viajero? (USD)</string>
+    <string name="eg_came_from">ej.Ecuador</string>
+    <string name="eg_location">ej.London</string>\
+    <string name="eg_date">ej: 13/03/2021</string>
+    <string name="rtn">Regresar</string>
+    <string name="Productoverview">Descripción del producto</string>
+    <string name="prmain">Producto solicitado</string>
+    <string name="FOLLOW">CONTINUAR</string>
+    <string name="do_you_want_to_discart">Está seguro que quiere descartar el producto?</string>
+    <string name="deleteorder">Seguro que quieres eliminar este producto de tu pedido?</string>
+
+    <string name="post">Agregar pedido</string>
+    <string name="Products"> Ver productos</string>
+    <string name="total_product_price">Precio total del pedido:</string>
+    <string name="total_reward">Total de la recompensa:</string>
+    <string name="products_in_order">No de productos en esta orden:</string>
+    <string name="orderadded">Su pedido se agregó exitosamente</string>
+    <string name="ordercancel">Su pedido se canceló con éxito.</string>
+    <string name="productdeleted">Producto eliminado exitosamente</string>
+
+    <string name="tripadded">Su viaje s ne agregó con éxito</string>
+
+    <string name="pleaseselect">Por favor seleccione el producto que quiere actualizar</string>
+    <string name="i_will_bring_order">Realizar Oferta</string>
+    <string name="cancel_order">Cancelar Pedido</string>
+    <string name="updateproductdetails">Si actualiza el producto, se perderá todas las ofertas en este pedido. Está seguro que quiere actualizar el producto?</string>
+
+    <string name="lnt"><u>Cargar nuevo viaje</u></string>
+    <string name="associate_trip"><u>Asociar Viaje</u></string>
+
+    <string name="ibring">El producto lo llevaré desde</string>
+    <string name="ideliver">El producto lo entregaré en</string>
+    <string name="itravel">Fecha de viaje</string>
+    <string name="fromttt">Ej. Inglaterra</string>
+    <string name="hintcountry">Ej. Ecuador</string>
+    <string name="deleteproduct">Está seguro de que desea eliminar este producto?</string>
+    <string name="youcannot">No puedes pujar por tu pedido</string>
+    <string name="hiretravellercannot">No puedes contratarte como viajero</string>
+    <string name="back">Vuelva a hacer clic en ATRÁS para salir</string>
+    <string name="UpdateProduct">Actualizar Producto</string>
+    <string name="productupdated">Producto actualizado con éxito</string>
+
+    <string name="hiretraveller">Are you sure you want to hire this order to traveller</string>
+    <string name="travellerhiresuccess">Solicitud de oferta exitosa</string>
+    <string name="toseechange">Para ver los cambios, debe reiniciar la aplicación!</string>
+    <string name="SelectLanguage">Seleccione el idioma</string>
+    <string name="Filter">Filtrar</string>
+    <string name="Reset">Limpiar filtros</string>
+    <string name="LocationFrom">País Origen</string>
+    <string name="LocationTo">País Destino</string>
+    <string name="SinceDate">Desde</string>
+    <string name="UntilDate">Hasta</string>
+    <string name="notripaa">No hay viajes disponibles</string>
+    <string name="PleaseWait">Espere por favor</string>
+    <string name="trip_cannot_cancel">No puedes cancelar este viaje ahora. El pedido contra este viaje ya es aceptado.</string>
+</resources>

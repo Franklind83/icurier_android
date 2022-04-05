@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/airplane"
+        tools:context=".Fragment.TripAndOffers.EditTripFragment">
+
+        <RelativeLayout
+            android:id="@+id/toolBarRl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/header"
+            android:background="@drawable/gradient_background">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/imgBack"
+                android:visibility="visible"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp"
+                android:layout_gravity="start"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_chevron_left_black_24dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/EditTravel"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_centerInParent="true"
+                android:textSize="16dp"
+                android:id="@+id/txtOrder"
+                android:textColor="@color/white"
+                android:layout_marginLeft="5dp"/>
+
+
+
+            <ImageView
+                android:id="@+id/imgAdd"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="8dp"
+                android:visibility="gone"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_add" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#99000000"
+            android:layout_below="@id/toolBarRl"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/origin"
+                android:layout_marginTop="30dp"
+                style="@style/txt"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/editText2"
+                android:clickable="true"
+                android:focusable="false"
+                android:id="@+id/txtTravelCityFrom"
+                android:padding="7dp"
+                android:hint="London,Uk"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/destination"
+                android:layout_marginTop="10dp"
+                style="@style/txt"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/editText2"
+                android:id="@+id/txtToCity"
+                android:clickable="true"
+                android:focusable="false"
+                android:padding="7dp"
+                android:hint="@string/hint_city"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/travel_date"
+                android:layout_marginTop="10dp"
+                style="@style/txt"/>
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/background_shopper">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint="@string/hint_day"
+                    android:layout_weight="0.8"
+                    android:gravity="center"
+                    android:textColorHint="@color/lite_white"
+                    android:id="@+id/txtDate"
+
+                    android:textColor="@color/white"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/imgSelectDate"
+                    android:src="@drawable/ic_event_black_24dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="visible"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/updateButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/button3"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_marginTop="40dp"
+                    android:text="@string/Update"/>
+
+                <Button
+                    android:id="@+id/cancelButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/button3"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_marginTop="40dp"
+                    android:text="@string/Cancel"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</layout>

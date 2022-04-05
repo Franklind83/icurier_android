@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/add_product"
+    tools:context=".Activity.ContactActivity">
+
+    <RelativeLayout
+        android:id="@+id/toolBarRl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header"
+        android:background="@drawable/gradient_background">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imgBack"
+            android:visibility="visible"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:layout_gravity="start"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_chevron_left_black_24dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/contact"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_centerInParent="true"
+            android:textSize="16dp"
+            android:id="@+id/titleTxt"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"/>
+
+
+        <ImageView
+            android:id="@+id/imgAdd"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_add" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolBarRl"
+        android:background="@color/background"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginStart="@dimen/extra_small_icon_size_20"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email:"
+                android:textSize="16sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/emailTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Email"
+                android:textStyle="bold"
+                android:padding="@dimen/size_5dp"
+                android:layout_marginTop="@dimen/size_10dp"
+                android:textSize="16sp"
+                android:textColor="@color/white"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/telephoned"
+                android:layout_marginTop="@dimen/size_10dp"
+                android:textSize="16sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/phone1Txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:padding="@dimen/size_5dp"
+                android:layout_marginTop="@dimen/size_10dp"
+                android:textSize="16sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/phone2Txt"
+                android:padding="@dimen/size_5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginTop="@dimen/size_10dp"
+                android:textSize="16sp"
+                android:textColor="@color/white"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="@dimen/extra_small_icon_size_20"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/imgFacebook"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:src="@drawable/facebook"/>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/imgInsta"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:src="@drawable/insta"/>
+
+                <!-- <com.facebook.login.widget.LoginButton
+                     android:id="@+id/login_button"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center_horizontal"
+                     android:layout_marginTop="30dp"
+                     android:visibility="gone"
+                     android:layout_marginBottom="30dp" />-->
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/urlTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/url"
+                android:layout_marginTop="@dimen/size_10dp"
+                android:textSize="18sp"
+                android:padding="@dimen/size_5dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/taglineTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tagline"
+                android:layout_marginTop="@dimen/size_10dp"
+                android:textSize="16sp"
+                android:textColor="@color/white"/>
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
+
+</layout>

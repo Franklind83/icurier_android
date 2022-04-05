@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/size_10dp"
+    android:layout_marginStart="40dp"
+    android:layout_gravity="top|center"
+    android:layout_marginEnd="40dp"
+    android:padding="@dimen/size_5dp"
+    app:cardElevation="@dimen/size_5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/extra_small_icon_size_20"
+            android:layout_marginStart="@dimen/size_10dp"
+            android:layout_marginEnd="@dimen/size_10dp"
+            android:textSize="16sp"
+            android:id="@+id/mainTxt"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/size_5dp"
+            android:textColor="@color/black"/>
+
+        <Button
+
+            android:id="@+id/oktext"
+            android:textStyle="bold"
+            android:layout_width="@dimen/small_banner_size_100"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/black"
+            android:background="@drawable/rounded_background"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="@dimen/size_10dp"
+            android:textColor="@color/black"
+            android:text="@string/ok" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

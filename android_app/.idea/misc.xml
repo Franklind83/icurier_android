@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_bottomnavigation.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_contact.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_offer.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_shopper_list_not_login.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_traveller_list_not_login.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_add_shopper.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_add_trip.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_bank_transfer.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_configration.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_make_offer.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/fragment_my_offer.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_my_order.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_order_summary.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/fragment_pay_phone.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_payment.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_product_details.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_satisfied_buyer.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_shopper_delivery.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_shopper_over_view.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_shopper_summary.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_stripe.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_traveller.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_slider_image.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/item_traveller.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/new_offer_item.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/offer_item.xml" value="0.21052631578947367" />
+        <entry key="app/src/main/res/layout/ok_alert.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/order_item_new.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/order_summery_item.xml" value="0.19791666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
